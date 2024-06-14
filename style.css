@@ -1,0 +1,104 @@
+/* Common styling property */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+}
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+a,
+button {
+  all: unset;
+  cursor: pointer;
+}
+button {
+  border-radius: 8px;
+  background-color: #8eadd5;
+  color: white;
+  padding: 12px 28px;
+}
+
+/* SECTION SPECIFIC PROPERTIES */
+section#hero {
+  height: auto;
+  padding-bottom: 48px;
+}
+section#hero > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+section#hero > nav > h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+section#hero > nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  color: #272d38;
+}
+section#hero > div {
+  background-color: none;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+section#hero > div > div {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+section#hero > div > div > p {
+  font-size: 16px;
+  color: #272d38;
+  line-height: 1.5;
+}
+section#hero > div > img {
+  height: 120%;
+}
+section#hero > div > div > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #272d38;
+  line-height: 1;
+}
+section#brands-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 56px 0;
+}
+section#brands-logo > p {
+  font-size: 12px;
+  color: #667085;
+}
+section#brands-logo > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #f6f6f6;
+  padding: 32px;
+  border-radius: 8px;
+}
